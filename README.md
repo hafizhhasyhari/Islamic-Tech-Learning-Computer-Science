@@ -1,6 +1,5 @@
 # Islamic-Undergraduate-Kuliah
 Kuliah Agama Islam (Religion)
-# Pertemuan XXX - [Judul Project] 📌
 
 ## 🎯 Tujuan Pembelajaran
 ## 📅 Daftar Pertemuan & Tujuan Pembelajaran
