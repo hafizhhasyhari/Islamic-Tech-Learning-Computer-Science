@@ -26,3 +26,33 @@ Sumber data diambil dari **API Sunnah.com** sehingga hasil yang ditampilkan **re
    ```bash
    git clone https://github.com/username/nama-repo.git
    cd nama-repo/pertemuan_007
+   ```
+2. Buat virtual environment (opsional, tapi disarankan)
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # MacOS/Linux
+   venv\Scripts\activate     # Windows
+   ```
+
+3. Install dependencies
+pip install -r requirements.txt
+
+4. Siapkan API Key
+   ```bash
+- Daftar di Sunnah.com API untuk mendapatkan API key.
+- Masukkan API key ke variabel API_KEY di setiap file Python.
+   ```
+5. Jalankan program
+📦 Dependencies
+   ```bash
+   requests – untuk mengambil data dari API.
+   tabulate – untuk menampilkan data dalam bentuk tabel.
+   ```
+Instal dengan:
+   ```bash
+   pip install requests tabulate
+   ```
+📌 Catatan
+API Sunnah.com memiliki batasan jumlah request per hari. Gunakan secara bijak.
+
+Tema dan kata kunci dapat disesuaikan di 5_kode_khusus.py dan 6_eksperimental.py.
